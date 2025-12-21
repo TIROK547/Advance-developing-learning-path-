@@ -150,21 +150,21 @@
   },
   "weeklyGoals": {
     "week1": {
-      "vimPractice": false,
-      "leetcodeProblems": 0,
-      "goLearning": false,
-      "projectWork": false,
+      "vimPractice": true,
+      "leetcodeProblems": 1,
+      "goLearning": true,
+      "projectWork": true,
       "notesDocumented": false,
       "codeCommitted": false
     }
   },
   "stats": {
-    "totalDays": 0,
-    "currentStreak": 0,
-    "longestStreak": 0,
+    "totalDays": 1,
+    "currentStreak": 1,
+    "longestStreak": 1,
     "projectsCompleted": 0,
     "testsWritten": 0,
-    "commitsThisWeek": 0
+    "commitsThisWeek": 3
   },
   "projects": [],
   "notes": {
