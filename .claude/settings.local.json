@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "Bash(chmod:*)",
+      "Bash(while read dir)",
+      "Bash(do)",
+      "Bash(if [ ! -f \"$dir/README.md\" ])",
+      "Bash([ \"$dir\" != \".\" ])",
+      "Bash(then)",
+      "Bash(echo:*)",
+      "Bash(fi)",
+      "Bash(done)",
+      "Bash(ls:*)",
+      "Bash({ echo \"\" echo \"# Part 2: Advanced Django \\(Mid-Level → Senior\\)\" echo \"\" echo \"These are **hard topics** that separate mid-level from senior Django engineers.\" echo \"\" cat DJANGO-ADVANCED.md)",
+      "Bash(tail -n +3 })",
+      "Bash(test:*)",
+      "Bash(nvim --version:*)",
+      "Bash(yazi --help:*)",
+      "Bash(yazi:*)",
+      "Bash(pip3:*)",
+      "Bash(go version:*)",
+      "Bash(node --version:*)",
+      "Bash(npm:*)",
+      "Bash(sudo pacman:*)",
+      "Bash(nvim:*)",
+      "Bash(cat:*)",
+      "Bash(timeout 5 nvim:*)",
+      "Bash(timeout 3 nvim:*)",
+      "Bash(npx create-next-app@latest progress-tracker --typescript --tailwind --app --no-src-dir --import-alias \"@/*\" --use-npm)",
+      "Bash(curl:*)",
+      "Bash(pkill -9 -f \"next dev\")",
+      "Bash(lsof:*)",
+      "Bash(xargs kill -9)"
+    ]
+  }
+}

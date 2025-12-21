@@ -1,0 +1,174 @@
+{
+  "currentWeek": 1,
+  "currentPhase": 1,
+  "startDate": "2025-12-21",
+  "leetcode": {
+    "total": 0,
+    "byLanguage": {
+      "go": 0,
+      "python": 0,
+      "typescript": 0
+    },
+    "byDifficulty": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+    },
+    "goal": 100
+  },
+  "skills": {
+    "go": {
+      "level": "beginner",
+      "topics": {
+        "basics": false,
+        "concurrency": false,
+        "webServers": false,
+        "databases": false,
+        "testing": false
+      }
+    },
+    "django": {
+      "level": "mid-level",
+      "topics": {
+        "advancedORM": false,
+        "caching": false,
+        "async": false,
+        "customComponents": false,
+        "performance": false
+      }
+    },
+    "vim": {
+      "level": "beginner",
+      "topics": {
+        "basics": false,
+        "intermediate": false,
+        "lspSetup": false,
+        "advanced": false
+      }
+    },
+    "databases": {
+      "level": "beginner",
+      "topics": {
+        "postgresql": false,
+        "redis": false,
+        "rabbitmq": false,
+        "optimization": false
+      }
+    },
+    "infrastructure": {
+      "level": "beginner",
+      "topics": {
+        "docker": false,
+        "linux": false,
+        "cicd": false
+      }
+    },
+    "frontend": {
+      "level": "beginner",
+      "topics": {
+        "nextjs": false,
+        "typescript": false,
+        "apiIntegration": false
+      }
+    }
+  },
+  "phases": {
+    "phase1": {
+      "name": "Go + Vim Foundation",
+      "weeks": "1-4",
+      "completed": false,
+      "goals": [
+        "Fluent in Go basics",
+        "Comfortable in Neovim (PyCharm deleted!)",
+        "20-30 LeetCode problems in 3 languages",
+        "Simple Go CLI tools built",
+        "Simple Go REST API"
+      ],
+      "progress": {
+        "goBasics": false,
+        "vimSetup": false,
+        "leetcodeProblems": 0,
+        "cliTool": false,
+        "restApi": false
+      }
+    },
+    "phase2": {
+      "name": "Backend Depth",
+      "weeks": "5-8",
+      "completed": false,
+      "goals": [
+        "Production Go REST APIs",
+        "Django for comparison",
+        "PostgreSQL deep dive",
+        "Redis caching",
+        "Docker containerization"
+      ],
+      "progress": {
+        "goApi": false,
+        "djangoComparison": false,
+        "postgresql": false,
+        "redis": false,
+        "docker": false
+      }
+    },
+    "phase3": {
+      "name": "Advanced Backend",
+      "weeks": "9-12",
+      "completed": false,
+      "goals": [
+        "Goroutines & channels mastery",
+        "WebSocket in Go",
+        "Async in Django (Celery, channels)",
+        "Message queues (RabbitMQ)",
+        "Next.js frontend basics"
+      ],
+      "progress": {
+        "concurrency": false,
+        "websocket": false,
+        "asyncDjango": false,
+        "messageQueues": false,
+        "nextjs": false
+      }
+    },
+    "phase4": {
+      "name": "Production Project",
+      "weeks": "13-16",
+      "completed": false,
+      "goals": [
+        "Production-grade full-stack app",
+        "Deployed on Linux",
+        "Comprehensive tests",
+        "CI/CD pipeline"
+      ],
+      "progress": {
+        "projectStarted": false,
+        "testsWritten": false,
+        "deployed": false,
+        "cicd": false
+      }
+    }
+  },
+  "weeklyGoals": {
+    "week1": {
+      "vimPractice": false,
+      "leetcodeProblems": 0,
+      "goLearning": false,
+      "projectWork": false,
+      "notesDocumented": false,
+      "codeCommitted": false
+    }
+  },
+  "stats": {
+    "totalDays": 0,
+    "currentStreak": 0,
+    "longestStreak": 0,
+    "projectsCompleted": 0,
+    "testsWritten": 0,
+    "commitsThisWeek": 0
+  },
+  "projects": [],
+  "notes": {
+    "lastUpdated": "2025-12-21",
+    "motivation": "Transform from mid-level to senior backend engineer in 16 weeks"
+  }
+}
