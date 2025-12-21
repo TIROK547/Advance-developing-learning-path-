@@ -3,14 +3,14 @@
   "currentPhase": 1,
   "startDate": "2025-12-21",
   "leetcode": {
-    "total": 1,
+    "total": 0,
     "byLanguage": {
-      "go": 1,
+      "go": 0,
       "python": 0,
       "typescript": 0
     },
     "byDifficulty": {
-      "easy": 1,
+      "easy": 0,
       "medium": 0,
       "hard": 0
     },
@@ -151,20 +151,20 @@
   "weeklyGoals": {
     "week1": {
       "vimPractice": true,
-      "leetcodeProblems": 2,
+      "leetcodeProblems": 1,
       "goLearning": true,
       "projectWork": true,
       "notesDocumented": false,
-      "codeCommitted": true
+      "codeCommitted": false
     }
   },
   "stats": {
-    "totalDays": 2,
-    "currentStreak": 2,
-    "longestStreak": 2,
+    "totalDays": 1,
+    "currentStreak": 1,
+    "longestStreak": 1,
     "projectsCompleted": 0,
     "testsWritten": 0,
-    "commitsThisWeek": 8
+    "commitsThisWeek": 3
   },
   "projects": [],
   "notes": {
