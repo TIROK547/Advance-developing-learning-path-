@@ -6,9 +6,9 @@ import (
 )
 
 func main() {
-	test_pattern := "abba"
-	test_string := "dog cat cat dog"
-	fmt.Println(wordPattern(test_pattern, test_string))
+	testPattern := "abba"
+	testString := "dog cat cat dog"
+	fmt.Println(wordPattern(testPattern, testString))
 }
 
 func wordPattern(pattern string, s string) bool {
@@ -24,14 +24,17 @@ func wordPattern(pattern string, s string) bool {
 	length := len(words)
 
 	for i := 0; i < length; i++ {
-		_, ok1 := p2w[pattern[i]]
-		_, ok2 := w2p[words[i]]
+		pw, ok1 := p2w[pattern[i]]
+		wp, ok2 := w2p[words[i]]
+
+		currentWord := words[i]
+		currentPattern := pattern[i]
 
 		if !ok1 && !ok2 {
-			p2w[pattern[i]] = words[i]
-			w2p[words[i]] = pattern[i]
+			p2w[pattern[i]] = currentWord
+			w2p[words[i]] = currentPattern
 		} else {
-			if p2w[pattern[i]] != words[i] || w2p[words[i]] != pattern[i] {
+			if pw != currentWord || wp != currentPattern {
 				return false
 			}
 		}
